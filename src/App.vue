@@ -6,8 +6,8 @@
 </template>
 
 <script>
-	var APP_ID = 'your appid';
-	var APP_KEY = 'your appKey';
+	var APP_ID = 'apLrGX1xumsj3TROPuj41A6z-gzGzoHsz';
+	var APP_KEY = 'pE0K2vCPp01I1DBS4NhcfOFo';
 	AV.init({
 		appId: APP_ID,
 		appKey: APP_KEY

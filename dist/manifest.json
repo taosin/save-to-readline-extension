@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+
+    "name": "Readline to Leancloud",
+    "description": "add read records to leancloud",
+    "version": "1.0",
+    "permissions": ["notifications", "unlimitedStorage", "downloads", "storage", "contextMenus", "tabs", "*://music.163.com/*", "*://*.xiami.com/*", "*://*.qq.com/*", "webRequest", "webRequestBlocking"],
+    "icons":
+    {
+        "48": "icon.png"
+    },
+    "browser_action":
+    {
+        "default_title": "Save to Readline",
+        "default_icon": "icon.png"
+    },
+    "background":
+    {
+        "presistent": true,
+        "scripts": ["background.js", "static/js/av.min.js"]
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
